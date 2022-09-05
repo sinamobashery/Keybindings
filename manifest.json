@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "Keybindings",
+    "version": "0.1.0",
+    "description": "vi keybindings for chrome",
+    "icons": {
+        "128": "/icons/128.png"
+    },
+    "author": "SinaMobasheri",
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ],
+    "homepage_url": "https://github.com/SinaMobasheri/Keybindings",
+    "short_name": "Keybindings",
+    "version_name": "0.1.0"
+}
